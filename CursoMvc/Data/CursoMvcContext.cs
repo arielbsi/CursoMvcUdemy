@@ -14,8 +14,10 @@ namespace CursoMvc.Models
         {
         }
 
-        public DbSet<CursoMvc.Models.Departamento> Departamento { get; set; } = default!;
+        public DbSet<CursoMvc.Models.Departamento> Departamento { get; set; }
+        public DbSet<CursoMvc.Models.Funcionario> Funcionario { get; set; }
+        public DbSet<CursoMvc.Models.RegistroVendas> RegistroVendas { get; set; }
 
-        
+
     }
 }
